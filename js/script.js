@@ -1,8 +1,13 @@
-let nome = prompt("Inserisci il tuo nome");
 
-let cognome = prompt("Inserisci il tuo cognome");
+/*  Chiedo all'utente di inserire i suoi dati, che verranno salvati */
 
-let favoriteColor = prompt("Inserisci il tuo colore preferito");
+const nome = prompt("Inserisci il tuo nome");
+
+const cognome = prompt("Inserisci il tuo cognome");
+
+const favoriteColor = prompt("Inserisci il tuo colore preferito");
+
+/* Inserisco i dati dell'utente all'interno dell'apposito span tramite ID*/ 
 
 document.getElementById("nome").innerHTML = nome;
 
